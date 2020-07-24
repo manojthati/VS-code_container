@@ -1,0 +1,16 @@
+{
+    "name": "JS ENV",
+    "dockerFile": "Dockerfile",
+    "appPort": [3000],
+    "runArgs": ["-u", "node"],
+    "settings": {
+        "workbeach.colorTheme": "Cobalt2",
+        "terminal.integrated.shell.linux": "/b in/bash"
+    },
+    "postCreateCommand": "npm install",
+    "extensions": [
+        "esbenp.prettier-vscode",
+        "wesbos.theme-cobalt2"
+    ]
+
+}
